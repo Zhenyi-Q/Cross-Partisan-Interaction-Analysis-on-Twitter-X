@@ -17,8 +17,8 @@ To set up the project on your local machine, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/Zhenyi-Q/emotion_classification.git
-    cd emotion_classification
+    git clone https://github.com/Zhenyi-Q/Cross-Partisan-Interaction-Analysis-on-Twitter-X.git
+    cd Cross-Partisan-Interaction-Analysis-on-Twitter-X
     ```
 
 2. **Set Up a Virtual Environment** (optional but recommended):
@@ -29,6 +29,8 @@ To set up the project on your local machine, follow these steps:
 
 3. **Install Dependencies**:
     ```bash
+    conda create --name cpi-analysis python=3.8
+    conda activate cpi-analysis
     pip install -r requirements.txt
     ```
 
