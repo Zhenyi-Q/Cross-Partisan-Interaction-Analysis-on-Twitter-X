@@ -23,14 +23,12 @@ To set up the project on your local machine, follow these steps:
 
 2. **Set Up a Virtual Environment** (optional but recommended):
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    conda create --name cpi-analysis python=3.8
+    conda activate cpi-analysis
     ```
 
 3. **Install Dependencies**:
     ```bash
-    conda create --name cpi-analysis python=3.8
-    conda activate cpi-analysis
     pip install -r requirements.txt
     ```
 
