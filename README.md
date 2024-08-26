@@ -39,8 +39,10 @@ To set up the project on your local machine, follow these steps:
 
 ### 1. Topic Analysis
 
-To perform topic analysis on the collected Twitter data:
-```python
-from topic_analysis import run_topic_analysis
+Download RoBERTA model from https://huggingface.co/cardiffnlp/tweet-topic-latest-multi
 
-run_topic_analysis(data_path="./data/tweets.csv")
+### 2. Sentient Analysis
+Download Llama3.1-8B model from https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+FineTurn
+python llama_lora_FGM.py
+Find the best model to predict sentient.
