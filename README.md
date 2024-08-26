@@ -54,3 +54,7 @@ python llama_lora_FGM.py
 
 
 Find the best model to predict sentient.
+
+### 3. Analysis
+
+Using analysis.ipynb to Statistical analysis.
