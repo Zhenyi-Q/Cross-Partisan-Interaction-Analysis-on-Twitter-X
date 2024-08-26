@@ -43,6 +43,14 @@ Download RoBERTA model from https://huggingface.co/cardiffnlp/tweet-topic-latest
 
 ### 2. Sentient Analysis
 Download Llama3.1-8B model from https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+
+Download the train set from https://huggingface.co/datasets/cardiffnlp/tweet_eval/viewer/sentiment
+
+
 FineTurn
+```bash
 python llama_lora_FGM.py
+```
+
+
 Find the best model to predict sentient.
